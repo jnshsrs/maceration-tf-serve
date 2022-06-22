@@ -11,7 +11,7 @@ files = [
         (
             "maceration-present-48393.png",
             open(
-                "/Users/jenshusers/Downloads/ziel-tensorflow-app/images/maceration-present-48393.png",
+                "images/maceration-present-48393.png",
                 "rb",
             ),
             "image/png",
@@ -29,9 +29,9 @@ files = [
     (
         "image",
         (
-            "maceration-absent-0497.png",
+            "maceration-absent-46478.png",
             open(
-                "/Users/jenshusers/Downloads/ziel-tensorflow-app/images/maceration-absent-0497.png",
+                "images/maceration-absent-0497.png",
                 "rb",
             ),
             "image/png",
