@@ -1,0 +1,26 @@
+version: '3'
+networks:
+  zielnetwork:
+    driver: bridge
+
+services:
+
+  tf-serve:
+    build:
+      context: ./tf-serve/
+    restart: always
+    ports:
+      - "8501:8501"
+    networks:
+      - zielnetwork
+
+  web:
+    build:
+      context: ./app/
+    restart: always
+    ports:
+      - "5000:5000"
+    depends_on:
+      - tf-serve
+    networks:
+      - zielnetwork
