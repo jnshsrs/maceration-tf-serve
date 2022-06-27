@@ -163,10 +163,6 @@ Leila, from here on you can start and define the endpoints
 def fun_name1():
     pass
 
-@app.route("/classfication/gradcam", methods=['POST'])
-def fun_name2():
-    pass
-
 """
 
 if __name__ == "__main__":
