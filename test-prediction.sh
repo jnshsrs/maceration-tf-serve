@@ -1,0 +1,1 @@
+curl -X POST -F image=@images/maceration-present-48393.png http://127.0.0.1:5000/image/predict
